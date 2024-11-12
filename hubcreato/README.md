@@ -10,6 +10,8 @@ This is the boilerplate for creating an API server in AdonisJs, it comes pre-con
 
 ## Setup
 
+## teste 
+
 Use the adonis command to install the blueprint
 
 ```bash

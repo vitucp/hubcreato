@@ -22,7 +22,29 @@
 
 ## Sobre o Projeto
 
-## Funcionalidades
+**Visão Geral:** HubCreato é uma plataforma inovadora que conecta influenciadores, criadores de conteúdo, modelos, fotógrafos e filmmakers com empresas, promovendo colaborações criativas e autênticas.
+
+**Missão:** Facilitar o encontro entre talentos e oportunidades.
+
+**Visão:** Ser a principal plataforma de conexão entre criadores e empresas.
+
+**Valores:** Inovação, Colaboração, Transparência, Inclusão e Excelência.
+
+
+## Funcionalidades Principais
+
+- **Criação de Perfil e Assinatura:** Empresas e criadores criam perfis completos e escolhem planos de assinatura para acessar todas as funcionalidades da plataforma.
+
+- **Busca Avançada de Talentos:** Ferramentas de busca com filtros detalhados permitem que empresas encontrem os criadores ideais para suas campanhas.
+
+- **Envio e Recebimento de Propostas:** Empresas podem enviar propostas para criadores, e criadores podem enviar propostas diretamente para empresas, aumentando as chances de colaboração.
+
+- **Criação de Eventos:** Empresas e criadores podem criar eventos e oportunidades de colaboração para promover conexões diretas e parcerias.
+
+- **Sistema de Avaliações e Recompensas:** Parcerias bem-sucedidas são reconhecidas através de avaliações e recompensas, incentivando a participação ativa e a excelência nas colaborações.
+
+- **Sem Comissões:** A plataforma opera com um modelo de assinatura fixa, permitindo colaborações ilimitadas entre empresas e criadores, sem custos adicionais por contratação.
+
 
 ## Pré-requisitos
 

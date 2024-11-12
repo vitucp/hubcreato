@@ -1,23 +1,23 @@
-<h1>teste<h1>
+# Teste
 
 ## Alertas
 
 Alertas são uma extensão Markdown baseada na sintaxe blockquote que você pode usar para enfatizar informações críticas. Eles são exibidos com cores e ícones distintos para indicar a importância do conteúdo.
 
-> [!NOTE]
-> Useful information that users should know, even when skimming content.
+### ℹ️ NOTE
+> Informações úteis que os usuários devem saber, mesmo quando apenas passando os olhos pelo conteúdo.
 
-> [!TIP]
-> Helpful advice for doing things better or more easily.
+### 💡 TIP
+> Conselhos úteis para fazer as coisas de forma mais fácil ou eficiente.
 
-> [!IMPORTANT]
-> Key information users need to know to achieve their goal.
+### ❗ IMPORTANT
+> Informações importantes que os usuários precisam saber para atingir o objetivo.
 
-> [!WARNING]
-> Urgent info that needs immediate user attention to avoid problems.
+### ⚠️ WARNING
+> Informações urgentes que precisam de atenção imediata para evitar problemas.
 
-> [!CAUTION]
-> Advises about risks or negative outcomes of certain actions.
+### ⚠️ CAUTION
+> Avisos sobre riscos ou possíveis resultados negativos de determinadas ações.
 
 
 feat: nova funcionalidade ou recurso (ex.: feat: adicionar autenticação JWT).

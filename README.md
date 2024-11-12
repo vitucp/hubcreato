@@ -64,7 +64,17 @@ Antes de começar, certifique-se de ter os seguintes itens instalados:
         cd hubcreato
   **Instale as dependências:**
   
-        npm install
+        cd hubcreato &&  npm install
+
+  **Instale as dependências:**
+  
+        cd frontend/src && npm install
+        
+  **Na raiz do projeto (hubcreato), crie um arquivo chamado .env com o seguinte comando:**
+  
+        copy .env.example .env
+
+        
   **Rodar os Containers com Docker Compose**
        
        docker-compose up --build

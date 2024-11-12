@@ -1,6 +1,8 @@
 ## 🚀 Hub Creato
 
 ## Tecnologias Utilizadas
+
+
   <p align="center">
     <a href="https://skillicons.dev">
       <img src="https://skillicons.dev/icons?i=git,aws,docker,adonis,js,nginx,nodejs,notion,postgres,postman" />
@@ -53,8 +55,48 @@ Antes de começar, certifique-se de ter os seguintes itens instalados:
 - **Docker**: para criar e gerenciar contêineres, facilitando o desenvolvimento e a implantação do projeto em um ambiente isolado e consistente. [Clique aqui para instalar o Docker](https://docs.docker.com/get-docker/).
 
 ## Instalação
+  **Clone o repositório usando o comando abaixo:**
+
+        git clone https://github.com/vitucp/hubcreato.git
+        
+  **Entre no diretório do projeto:**
+
+        cd hubcreato
+  **Instale as dependências:**
+  
+        cd hubcreato &&  npm install
+
+  **Instale as dependências:**
+  
+        cd frontend/src && npm install
+        
+  **Na raiz do projeto (hubcreato), crie um arquivo chamado .env com o seguinte comando:**
+  
+        copy .env.example .env
+
+        
+  **Rodar os Containers com Docker Compose**
+       
+       docker-compose up --build
+       
+
 ## Como Usar
+> [!NOTE]
+>  caso deseje usar em ambiente de teste (homologação).
+
+  Acessar o Backend
+
+    http://localhost:81
+
+    
+  Acessar o Frontend
+
+     http://localhost:82
+
 ## Estrutura de Pastas
+
+> [!WARNING]
+> Ainda Sujeito a alteração.
 
         ├─── frontend
     │   ├─── assets             # Arquivos estáticos, como imagens, CSS, etc.
@@ -85,48 +127,6 @@ Antes de começar, certifique-se de ter os seguintes itens instalados:
 
 
 
-Linux e macOS:
-
-```
-<comando_de_instalação>
-```
-
-Windows:
-
-```
-<comando_de_instalação>
-```
-
-<details>
-
-<summary>Tips for collapsed sections</summary>
-
-### You can add a header
-
-```ruby
-   puts "Hello World"
-```
-
-</details>
-
-## Alertas
-
-Alertas são uma extensão Markdown baseada na sintaxe blockquote que você pode usar para enfatizar informações críticas. Eles são exibidos com cores e ícones distintos para indicar a importância do conteúdo.
-
-> [!NOTE]
-> Useful information that users should know, even when skimming content.
-
-> [!TIP]
-> Helpful advice for doing things better or more easily.
-
-> [!IMPORTANT]
-> Key information users need to know to achieve their goal.
-
-> [!WARNING]
-> Urgent info that needs immediate user attention to avoid problems.
-
-> [!CAUTION]
-> Advises about risks or negative outcomes of certain actions.
 
 > [!TIP]
 > utilizado nos commits.

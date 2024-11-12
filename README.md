@@ -1,21 +1,67 @@
-## 🚀 Projeto
+## 🚀 Hub Creato
 
-
-## Table of contents
-
-
-## 🚀 Tecnologias
+## Tecnologias Utilizadas
   <p align="center">
     <a href="https://skillicons.dev">
       <img src="https://skillicons.dev/icons?i=git,aws,docker,adonis,js,nginx,nodejs,notion,postgres,postman" />
     </a>
   </p>
+  
+
+
+## Indice
+
+- [Sobre o Projeto](#sobre-o-projeto)
+- [Funcionalidades](#funcionalidades)
+- [Pré-requisitos](#pré-requisitos)
+- [Instalação](#instalação)
+- [Como Usar](#como-usar)
+- [Estrutura de Pastas](#estrutura-de-pastas)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+
+
+## Sobre o Projeto
+
+## Funcionalidades
+
+## Pré-requisitos
+
+Antes de começar, certifique-se de ter os seguintes itens instalados:
+
+- **Docker**: para criar e gerenciar contêineres, facilitando o desenvolvimento e a implantação do projeto em um ambiente isolado e consistente. [Clique aqui para instalar o Docker](https://docs.docker.com/get-docker/).
+
+## Instalação
+## Como Usar
+## Estrutura de Pastas
+
+        ├─── frontend
+    │   ├─── assets             # Arquivos estáticos, como imagens, CSS, etc.
+    │   ├─── src
+    │   │   ├─── controller      # Lógica dos controladores
+    │   │   ├─── middlewares     # Funções intermediárias
+    │   │   ├─── node_modules    # Dependências do projeto
+    │   │   ├─── routers         # Definição de rotas
+    │   │   └─── utils           # Utilitários e funções auxiliares
+    │   └─── views               # Páginas principais
+    │       ├─── home
+    │       ├─── iaMatch
+    │       ├─── login
+    │       ├─── pagePayments
+    │       ├─── pageSignature
+    │       ├─── perfilEnterprise
+    │       ├─── perfilUser
+    │       └─── register
+    └─── hubcreato
+        ├─── app                # Pasta principal do back-end
+        │   ├─── Controllers     # Controladores de requisição
+        │   │   └─── Http        # Lógica HTTP para os controladores
+        │   ├─── Middleware      # Middlewares personalizados
+        │   ├─── Models          # Modelos de dados
+        │   ├─── Routes          # Arquivos de rotas
+        └─── config              # Configurações de ambiente e variáveis
 
 
 
-## 🚀 Instalando <nome_do_projeto>
-
-Para instalar o <nome_do_projeto>, siga estas etapas:
 
 Linux e macOS:
 
@@ -61,7 +107,7 @@ Alertas são uma extensão Markdown baseada na sintaxe blockquote que você pode
 > Advises about risks or negative outcomes of certain actions.
 
 > [!TIP]
-> Helpful advice for doing things better or more easily.
+> utilizado nos commits.
 > 
     feat: nova funcionalidade ou recurso (ex.: feat: adicionar autenticação JWT).
     

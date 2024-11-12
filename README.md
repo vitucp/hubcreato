@@ -67,6 +67,9 @@ Antes de começar, certifique-se de ter os seguintes itens instalados:
 ## Como Usar
 ## Estrutura de Pastas
 
+> [!WARNING]
+> Ainda Sujeito a alteração.
+
         ├─── frontend
     │   ├─── assets             # Arquivos estáticos, como imagens, CSS, etc.
     │   ├─── src

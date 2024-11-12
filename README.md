@@ -1,6 +1,8 @@
 ## 🚀 Hub Creato
 
 ## Tecnologias Utilizadas
+
+
   <p align="center">
     <a href="https://skillicons.dev">
       <img src="https://skillicons.dev/icons?i=git,aws,docker,adonis,js,nginx,nodejs,notion,postgres,postman" />
@@ -63,8 +65,24 @@ Antes de começar, certifique-se de ter os seguintes itens instalados:
   **Instale as dependências:**
   
         npm install
-  
+  **Rodar os Containers com Docker Compose**
+       
+       docker-compose up --build
+       
+
 ## Como Usar
+> [!NOTE]
+>  caso deseje usar em ambiente de teste (homologação).
+
+  Acessar o Backend
+
+    http://localhost:81
+
+    
+  Acessar o Frontend
+
+     http://localhost:82
+
 ## Estrutura de Pastas
 
 > [!WARNING]
@@ -99,37 +117,6 @@ Antes de começar, certifique-se de ter os seguintes itens instalados:
 
 
 
-
-<details>
-
-<summary>Tips for collapsed sections</summary>
-
-### You can add a header
-
-```ruby
-   puts "Hello World"
-```
-
-</details>
-
-## Alertas
-
-Alertas são uma extensão Markdown baseada na sintaxe blockquote que você pode usar para enfatizar informações críticas. Eles são exibidos com cores e ícones distintos para indicar a importância do conteúdo.
-
-> [!NOTE]
-> Useful information that users should know, even when skimming content.
-
-> [!TIP]
-> Helpful advice for doing things better or more easily.
-
-> [!IMPORTANT]
-> Key information users need to know to achieve their goal.
-
-> [!WARNING]
-> Urgent info that needs immediate user attention to avoid problems.
-
-> [!CAUTION]
-> Advises about risks or negative outcomes of certain actions.
 
 > [!TIP]
 > utilizado nos commits.

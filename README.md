@@ -53,6 +53,17 @@ Antes de começar, certifique-se de ter os seguintes itens instalados:
 - **Docker**: para criar e gerenciar contêineres, facilitando o desenvolvimento e a implantação do projeto em um ambiente isolado e consistente. [Clique aqui para instalar o Docker](https://docs.docker.com/get-docker/).
 
 ## Instalação
+  **Clone o repositório usando o comando abaixo:**
+
+        git clone https://github.com/vitucp/hubcreato.git
+        
+  **Entre no diretório do projeto:**
+
+        cd hubcreato
+  **Instale as dependências:**
+  
+        npm install
+  
 ## Como Usar
 ## Estrutura de Pastas
 
@@ -85,17 +96,6 @@ Antes de começar, certifique-se de ter os seguintes itens instalados:
 
 
 
-Linux e macOS:
-
-```
-<comando_de_instalação>
-```
-
-Windows:
-
-```
-<comando_de_instalação>
-```
 
 <details>
 

@@ -1,7 +1,6 @@
 const axios = require('axios');
 const baseURL = "http://127.0.0.1:3333";
 const { getMessageObject } = require('../utils/messageUtils');
-
 class AuthController {
 
     async login(req, res) {

@@ -24,10 +24,10 @@ app.use(session({
 
 // Rotas
 const LoginRouter = require('./routers/LoginRouter');
-
+const RegisterRouter = require('./routers/RegisterRouter')
 
 app.use('/', LoginRouter);
-
+app.use('/', RegisterRouter)
 
 app.listen(PORT, () => {
   console.log(`Servidor rodando na porta ${PORT}`);

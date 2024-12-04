@@ -55,13 +55,13 @@ class AuthController {
             }
           });
          
-          const token = jwt.sing({id: user.id}, process.env.JWT_SECRET, {expiresIn: '1h'});
+          const token = jwt.sign({id: user.id}, process.env.JWT_SECRET, {expiresIn: '1h'});
 
           return response.json({token}); 
 
         } catch (error) {
-            console.error(error);
-            return response.status(500).json({ message: 'Internal server error' });
+          console.log('ERRO: ', error)
+          return response.status(500).json({ message: 'Internal server error' });
         }
     }
 

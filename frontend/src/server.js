@@ -4,7 +4,7 @@ const path = require('path');
 const bodyParser = require('body-parser');
 const session = require('express-session'); 
 
-const PORT = 82;
+const PORT = process.env.PORT;
 
 
 app.set('view engine', 'ejs');
